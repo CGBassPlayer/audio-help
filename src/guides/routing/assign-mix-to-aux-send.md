@@ -18,14 +18,15 @@ title: Assign Mix to Aux Sends
 
 # Assign Mix to Aux Sends
 
-<p>What Aux are you using?</p>
-<select v-model="selectedAux">
-  <option disabled value="">Aux Selection</option>
-  <option v-for="option in auxOptions" :value="option.value">
-    {{ option.text }}
-  </option>
-</select>
-
+<p>
+  What Aux are you using?
+  <select v-model="selectedAux">
+    <option disabled value="">Aux Selection</option>
+    <option v-for="option in auxOptions" :value="option.value">
+      {{ option.text }}
+    </option>
+  </select>
+</p>
 ::: warning
 This guide assumes the v4 firmware is being used. If you are the v3 firmware, check out the manual.
 :::
