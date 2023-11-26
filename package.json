@@ -1,0 +1,31 @@
+{
+  "name": "x32-guide",
+  "version": "1.0.0",
+  "description": "Static site to have guides for setting up the X32",
+  "author": "Ryan Goodwin",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.31"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CGBassPlayer/x32-guide.git"
+  },
+  "keywords": [
+    "x32",
+    "audio",
+    "guide",
+    "live-sound"
+  ],
+  "bugs": {
+    "url": "https://github.com/CGBassPlayer/x32-guide/issues"
+  },
+  "homepage": "https://github.com/CGBassPlayer/x32-guide#readme"
+}
