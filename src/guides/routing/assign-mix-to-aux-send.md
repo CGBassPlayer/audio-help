@@ -3,21 +3,28 @@ title: Assign Mix to Aux Sends
 ---
 
 <script setup>
-// TODO: Get value of Dropdown to update this field
-const selectedAux = "your desired aux";
+  import { ref } from 'vue'
+
+  const selectedAux = ref('your desired aux')
+  const auxOptions = ref([
+    {text: "Aux 1", value: "Aux 1"},
+    {text: "Aux 2", value: "Aux 2"},
+    {text: "Aux 3", value: "Aux 3"},
+    {text: "Aux 4", value: "Aux 4"},
+    {text: "Aux 5", value: "Aux 5"},
+    {text: "Aux 6", value: "Aux 6"}
+  ])
 </script>
 
 # Assign Mix to Aux Sends
 
-[//]: # (<label for="aux">Which Aux do you need to work with?</label>)
-[//]: # (<select id="aux" name="aux" @change="updateAux&#40;$event&#41;">)
-[//]: # (  <option value="1">Aux 1</option>)
-[//]: # (  <option value="2">Aux 2</option>)
-[//]: # (  <option value="3">Aux 3</option>)
-[//]: # (  <option value="4">Aux 4</option>)
-[//]: # (  <option value="5">Aux 5</option>)
-[//]: # (  <option value="6">Aux 6</option>)
-[//]: # (</select>)
+<p>What Aux are you using?</p>
+<select v-model="selectedAux">
+  <option disabled value="">Aux Selection</option>
+  <option v-for="option in auxOptions" :value="option.value">
+    {{ option.text }}
+  </option>
+</select>
 
 ::: warning
 This guide assumes the v4 firmware is being used. If you are the v3 firmware, check out the manual.
@@ -29,3 +36,7 @@ This guide assumes the v4 firmware is being used. If you are the v3 firmware, ch
 3. Once on the `AUX OUT` tab, use Encoder 1 (the furthest encoder to the left) to change to {{ selectedAux }}
 4. Use Encoder 3 to change the 'mix' or source that will be assigned to {{ selectedAux }}. Make sure to press on Encoder 3
    to confirm the selection.
+
+<style>
+  
+</style>

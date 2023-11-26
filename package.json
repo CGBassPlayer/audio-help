@@ -4,6 +4,7 @@
   "description": "Static site to have guides for setting up the X32",
   "author": "Ryan Goodwin",
   "license": "MIT",
+  "private": true,
   "dependencies": {},
   "devDependencies": {
     "vitepress": "^1.0.0-rc.31"
