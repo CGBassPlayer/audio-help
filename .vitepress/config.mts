@@ -1,4 +1,4 @@
-import { defineConfig } from "vitepress"
+import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -39,6 +39,10 @@ export default defineConfig({
         text: "Routing",
         link: "/guides/routing/",
         items: [
+          {
+            text: "Adding A Press Feed",
+            link: "/guides/routing/adding-a-press-feed"
+          },
           {
             text: "Assigning Mix to an Aux Send",
             link: "/guides/routing/assign-mix-to-aux-send"

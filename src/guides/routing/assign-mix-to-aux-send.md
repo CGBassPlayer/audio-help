@@ -27,6 +27,7 @@ title: Assign Mix to Aux Sends
     </option>
   </select>
 </p>
+
 ::: warning
 This guide assumes the v4 firmware is being used. If you are the v3 firmware, check out the manual.
 :::
