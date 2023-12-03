@@ -33,8 +33,7 @@ This guide assumes the v4 firmware is being used. If you are the v3 firmware, ch
 :::
 
 1. Press the Routing Button next to the screen
-2. Press the right arrow to change the currently viewed tab to `AUX OUT`. It is not on the screen by default, keep
-   pressing right until it appears.
+2. Press the right arrow to change the currently viewed tab to `AUX OUT`. It is not on the screen by default, keep pressing right until it appears.
 3. Once on the `AUX OUT` tab, use Encoder 1 (the furthest encoder to the left) to change to {{ selectedAux }}
 4. Use Encoder 3 to change the 'mix' or source that will be assigned to {{ selectedAux }}. Make sure to press on Encoder 3
    to confirm the selection.
