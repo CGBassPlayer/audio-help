@@ -18,6 +18,10 @@ title: Assign Mix to Aux Sends
 
 # Assign Mix to Aux Sends
 
+::: warning
+This guide assumes the v4 firmware is being used. If you are the v3 firmware, check out the manual.
+:::
+
 <p>
   What Aux are you using?
   <select v-model="selectedAux">
@@ -27,10 +31,6 @@ title: Assign Mix to Aux Sends
     </option>
   </select>
 </p>
-
-::: warning
-This guide assumes the v4 firmware is being used. If you are the v3 firmware, check out the manual.
-:::
 
 1. Press the Routing Button next to the screen
 2. Press the right arrow to change the currently viewed tab to `AUX OUT`. It is not on the screen by default, keep pressing right until it appears.
