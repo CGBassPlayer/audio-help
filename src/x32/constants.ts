@@ -1,4 +1,9 @@
-export const channelOptions = [
+export interface ConstantsOptionProps {
+    name: string
+    findText: string
+}
+
+export const channelOptions: ConstantsOptionProps[] = [
     { name: "Channel 1", findText: "Press the CH 1-16 Button near the bottom left of the console and Channel 1 will be the first fader to the right of that button" },
     { name: "Channel 2", findText: "Press the CH 1-16 Button near the bottom left of the console and Channel 2 will be the second fader to the right of that button" },
     { name: "Channel 3", findText: "Press the CH 1-16 Button near the bottom left of the console and Channel 3 will be the third fader to the right of that button" },
@@ -43,7 +48,7 @@ export const channelOptions = [
     { name: "FX Return 4", findText: "Press the AUX IN / USB FX RETURNS Button near the bottom left of the console and FX 4 Returns L and R will be the first and second fader to the left of the center column of buttons. Do note that they are in stereo so moving one fader will change the other for you." }
 ]
 
-export const busOptions = [
+export const busOptions: ConstantsOptionProps[] = [
     { name: "MixBus 1", findText: "Press the BUS 1-8 button in the middle of the board between the faders and press Select the first fader to the right of that button" },
     { name: "MixBus 2", findText: "Press the BUS 1-8 button in the middle of the board between the faders and press Select the second fader to the right of that button" },
     { name: "MixBus 3", findText: "Press the BUS 1-8 button in the middle of the board between the faders and press Select the third fader to the right of that button" },
@@ -62,7 +67,7 @@ export const busOptions = [
     { name: "MixBus 16", findText: "Press the BUS 9-16 button in the middle of the board between the faders and press Select the eighth fader to the right of that button" }
 ]
 
-export const matrixOptions = [
+export const matrixOptions: ConstantsOptionProps[] = [
     {name: "Matix 1", findText: "Press the MATRIX 1-6 MAIN C button in the middle of the board between the 2 banks of faders. Matrix 1 is the first fader to the right of that button"},
     {name: "Matix 2", findText: "Press the MATRIX 1-6 MAIN C button in the middle of the board between the 2 banks of faders. Matrix 2 is the second fader to the right of that button"},
     {name: "Matix 3", findText: "Press the MATRIX 1-6 MAIN C button in the middle of the board between the 2 banks of faders. Matrix 3 is the third fader to the right of that button"},

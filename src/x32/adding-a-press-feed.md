@@ -4,14 +4,14 @@ title: Adding a Press Feed
 
 <script setup>
   import { ref } from 'vue';
-  import { matrixOptions } from "../constants.ts"
+  import { matrixOptions } from "./constants";
 
   const matrixSelection = ref({name: "your desired matrix", findText: "your desired matrix"});
 </script>
 
 # Adding a Press Feed
 
-If the camera man is walking up to you 5 minutes before a show and asking "Can I get a line out?" you should probably tell then no. But incase you have to, here is how.
+If the camera man is walking up to you 5 minutes before a show and asking "Can I get a line out?" you should probably tell them no. But incase you have to, here is how.
 
 ::: warning
 This guide assumes the v4 firmware is being used. If you are the v3 firmware, check out the manual.

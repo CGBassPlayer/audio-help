@@ -11,5 +11,5 @@ hero:
       link: /consoles
     - theme: alt
       text: Add Guides
-      link: https://github.com/CGBassPlayer/x32-guide
+      link: https://github.com/CGBassPlayer/audio-help
 ---

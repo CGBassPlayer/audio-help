@@ -1,13 +1,13 @@
 {
-  "name": "x32-guide",
+  "name": "audio-help",
   "version": "1.0.0",
   "description": "Static site to have guides for setting up the X32",
   "author": "Ryan Goodwin",
   "license": "MIT",
   "private": true,
-  "dependencies": {},
   "devDependencies": {
-    "vitepress": "^1.0.0-rc.31"
+    "@vue/tsconfig": "^0.5.1",
+    "vitepress": "^1.0.0-rc.32"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,16 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CGBassPlayer/x32-guide.git"
+    "url": "git+https://github.com/CGBassPlayer/audio-help.git"
   },
   "keywords": [
-    "x32",
     "audio",
     "guide",
     "live-sound"
   ],
   "bugs": {
-    "url": "https://github.com/CGBassPlayer/x32-guide/issues"
+    "url": "https://github.com/CGBassPlayer/audio-help/issues"
   },
-  "homepage": "https://github.com/CGBassPlayer/x32-guide#readme"
+  "homepage": "https://github.com/CGBassPlayer/audio-help#readme"
 }

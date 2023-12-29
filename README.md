@@ -1,6 +1,7 @@
-# x32 Guide
+# Audio Help
 
-Static site containing basic walkthroughs on how to do specific things on an X32/M32 audio console.
+Static site containing basic walkthroughes on how to do specific things on various audio consoles. Currently only for
+x32/M32 consoles with work started to expand.
 
 This project uses [vitepress](https://vitepress.dev/) to generate a static site with dynamic pieces using Vue and Vite.
 

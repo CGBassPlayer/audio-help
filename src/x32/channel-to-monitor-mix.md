@@ -4,7 +4,7 @@ title: Sending a Channel to a Monitor Mix
 
 <script setup>
     import { ref } from 'vue';
-    import { channelOptions, busOptions} from '../constants.ts';
+    import { channelOptions, busOptions} from './constants.ts';
 
     // Variables for text
     const channelSelection = ref({name: "your needed channel(s)", findText: "Make sure the channel is displayed on the scribble strips to the right of that button side of the board"});
