@@ -1,4 +1,42 @@
 import { defineConfig } from "vitepress";
+import * as fs from 'fs';
+import * as path from 'path';
+
+function toTitleCase(str) {
+  return str.replace(
+    /\w\S*/g,
+    text => text.charAt(0).toUpperCase() + text.substring(1).toLowerCase()
+  );
+}
+
+function walkSync(currentDirPath, callback) {
+  fs.readdirSync(currentDirPath).forEach(function (name) {
+      var filePath = path.join(currentDirPath, name);
+      var stat = fs.statSync(filePath);
+      if (stat.isFile()) {
+          callback(filePath, stat);
+      } else if (stat.isDirectory()) {
+          walkSync(filePath, callback);
+      }
+  });
+}
+
+function generateSideBar(folderName: string) {
+  const pages: object[] = []
+
+  walkSync(`src/${folderName}/`, function(filePath, stat) {
+    let fileName:string = filePath.split("/").at(-1);
+    if (fileName.endsWith("ts") || fileName === "index.md") {
+      return;
+    }
+    pages.push({
+      text: toTitleCase(fileName.replaceAll("-", " ").replace(/\.[^/.]+$/, "")),
+      link: `/${fileName}`
+    });
+  });
+  
+  return pages;
+}
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -26,32 +64,20 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Consoles", link: "/consoles" },
-      { text: "About", link: "/about"}
+      { text: "About", link: "/about" }
     ],
 
     sidebar: [
       {
         text: "X32 / M32",
-        link: "/x32/",
-        items: [
-          {
-            text: "Adding a Press Feed",
-            link: "/x32/adding-a-press-feed"
-          },
-          {
-            text: "Assign Mix to Aux Send",
-            link: "/x32/assign-mix-to-aux-send"
-          },
-          {
-            text: "Send a Channel to a Monitor Mix",
-            link: "/x32/channel-to-monitor-mix"
-          },
-        ]
+        link: "/",
+        base: "/x32",
+        items: generateSideBar("x32"),
       },
       {
         text: "SQ5/SQ6/SQ7",
-        link: "/sq5/",
-        items: []
+        link: "/",
+        base: "/sq/"
       }
     ],
 

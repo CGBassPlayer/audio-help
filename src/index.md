@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Audio Guide"
-  tagline: "Now you can stop calling me"
+  tagline: "Simple steps to get things done"
   actions:
     - theme: brand
       text: Consoles

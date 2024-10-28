@@ -5,9 +5,3 @@
 
 ![x32-top](/static/img/x32-top.png)
 ![x32-back](/static/img/x32-back.png)
-
-## Guides
-
-- [Adding a Press Feed](./adding-a-press-feed)
-- [Assign Mix to Aux Send](./assign-mix-to-aux-send)
-- [Send a Channel to a Monitor Mix](./channel-to-monitor-mix.md)

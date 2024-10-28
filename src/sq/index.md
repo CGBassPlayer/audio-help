@@ -8,6 +8,3 @@
 ![sq5-top](/static/img/sq5-top.png)
 ![sq5-back](/static/img/sq5-back.png)
 
-## Guides
-
-*Coming soon!*

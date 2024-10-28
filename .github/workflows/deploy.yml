@@ -37,13 +37,13 @@ jobs:
 
       - name: Build with VitePress
         run: |
-          npm run docs:build
+          npm run build
           touch dist/.nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          name: prod-artifact
+          name: site
           path: dist/
 
   deploy:
@@ -58,4 +58,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
         with:
-          artifact_name: prod-artifact
+          artifact_name: site
