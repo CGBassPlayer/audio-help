@@ -77,7 +77,8 @@ export default defineConfig({
       {
         text: "SQ5/SQ6/SQ7",
         link: "/",
-        base: "/sq/"
+        base: "/sq/",
+        items: generateSideBar("sq")
       }
     ],
 
