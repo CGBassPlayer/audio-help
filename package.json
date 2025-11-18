@@ -1,14 +1,16 @@
 {
   "name": "audio-help",
   "version": "1.0.0",
-  "description": "Static site to have guides for setting up the X32",
+  "description": "Static site to have guides for setting up audio consoles",
   "author": "Ryan Goodwin",
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "@types/node": "^22.7.6",
-    "@vue/tsconfig": "^0.5.1",
-    "vitepress": "^1.4.1"
+    "@types/node": "^24.10.1",
+    "@vue/tsconfig": "^0.8.1",
+    "mermaid": "^11.12.1",
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-mermaid": "^2.0.17"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
