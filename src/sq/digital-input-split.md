@@ -2,7 +2,7 @@
 title: Digital Input Splits
 ---
 
-# Digital Input Split
+# {{ $frontmatter.title }}
 
 ## With a Stagebox
 
@@ -55,4 +55,3 @@ FOH will only have trim for gain control while Monitors will need to make sure t
 3. Select `Input Channels` sub menu on the left side
 4. Select `SLink` on the top menu
 5. Setup your patching for your input channels
-

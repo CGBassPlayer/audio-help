@@ -5,6 +5,5 @@
 - [SQ7 Offical Quick Start Guide](https://www.allen-heath.com/content/uploads/2023/06/SQ7_AP11350_Introduction_issue1.pdf)
 - [Offical Manual](https://www.allen-heath.com/content/uploads/2023/05/SQ_ReferenceGuide_V1_5_0.pdf)
 
-![sq5-top](/static/img/sq5-top.png)
-![sq5-back](/static/img/sq5-back.png)
-
+![sq5-top](/static/img/sq/sq5-top.png)
+![sq5-back](/static/img/sq/sq5-back.png)

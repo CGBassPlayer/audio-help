@@ -2,7 +2,7 @@
 title: Sending a Channel to a Monitor Mix
 ---
 
-# Sending a Channel to a Monitor Mix
+# {{ $frontmatter.title }}
 
 ## All Inputs to a Single Mix
 

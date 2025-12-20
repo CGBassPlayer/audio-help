@@ -2,7 +2,7 @@
 title: Changing a Channel Assignment
 ---
 
-# Changing Channel Assignment
+# {{ $frontmatter.title }}
 
 Let's say you are using Channels 1 and 2 through a stagebox and then your Aux 5 and 6 for some music and you want that all on 1 layer for easy access. The easiest thing to do would be to update the channel source for a pair of channels you are not using.
 

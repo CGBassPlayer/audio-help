@@ -2,4 +2,7 @@
 
 ## Why does this exist?
 
-Because I get *A LOT* of phone calls on how to do basic things on the X32 and I am hoping this will fix it.
+Do you have that thing you do once every 6-12 months and everytime you need to do that thing, you forget?
+That is what this website is for.
+To help you get that thing done.
+These guides are no nonsense and get you back to doing what you need to do to make a show happen.
